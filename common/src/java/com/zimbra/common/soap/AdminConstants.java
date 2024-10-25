@@ -1613,8 +1613,7 @@ public final class AdminConstants {
     public static final QName VALIDATE_S3_BUCKET_REACHABLE_RESPONSE = QName.get(E_VALIDATE_S3_BUCKET_REACHABLE_RESPONSE, NAMESPACE);
 
     // Removed Zetras zimlet package list
-    public static final List<String> ZEXTRAS_PACKAGES_LIST = Arrays.asList("com_ng_auth", "com_zextras_zextras",
-            "com_zextras_client", "com_zimbra_connect_classic", "com_zimbra_connect_modern", "com_zextras_docs",
+    public static final List<String> ZEXTRAS_PACKAGES_LIST = Arrays.asList("com_ng_auth","com_zextras_docs",
             "com_zimbra_docs_modern", "com_zimbra_drive_modern", "com_zextras_drive", "com_zextras_drive_open",
-            "com_zextras_chat_open", "com_zextras_talk", "zimbra-zimlet-briefcase-edit-lool");
+            "com_zextras_talk", "zimbra-zimlet-briefcase-edit-lool");
 }
